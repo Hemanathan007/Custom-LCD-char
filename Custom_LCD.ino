@@ -50,7 +50,7 @@ void loop()
     lcd.setCursor(a, 1);
     lcd.write(byte(a));
   }
-  delay(100); // Delay to observe the result
+  delay(100);
   b++;
   if(b==15 || s1==15)
   {
